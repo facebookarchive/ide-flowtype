@@ -1,0 +1,69 @@
+{
+  "name": "ide-flow",
+  "main": "./lib/main",
+  "license": "BSD-3-Clause",
+  "version": "0.10.0",
+  "description": "Flow-typed JavaScript support for Atom IDE",
+  "scripts": {
+    "ci": "yarn lint",
+    "format": "prettier lib/**/*.js --write --single-quote --no-bracket-spacing --trailing-comma=es5 --jsx-bracket-same-line",
+    "lint": "eslint lib"
+  },
+  "engines": {
+    "atom": ">=1.17.0"
+  },
+  "dependencies": {
+    "atom-languageclient": "github:atom/atom-languageclient#2ecc092",
+    "flow-language-server": "^0.1.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    },
+    "linter-indie": {
+      "versions": {
+        "2.0.0": "consumeLinterV2"
+      }
+    },
+    "atom-ide-busy-signal": {
+      "versions": {
+        "0.1.0": "consumeBusySignal"
+      }
+    },
+    "datatip": {
+      "versions": {
+        "0.1.0": "consumeDatatip"
+      }
+    }
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provideAutocomplete"
+      }
+    },
+    "definitions": {
+      "versions": {
+        "0.1.0": "provideDefinitions"
+      }
+    },
+    "outline-view": {
+      "versions": {
+        "0.1.0": "provideOutlines"
+      }
+    },
+    "hyperclick": {
+      "versions": {
+        "0.1.0": "provideHyperclick"
+      }
+    }
+  },
+  "devDependencies": {
+    "eslint": "^v3.19.0",
+    "eslint-config-fbjs-opensource": "^1.0.0",
+    "eslint-plugin-rulesdir": "^0.1.0",
+    "prettier": "^1.5.3"
+  }
+}
