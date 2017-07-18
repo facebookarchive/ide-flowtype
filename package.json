@@ -13,8 +13,7 @@
   },
   "dependencies": {
     "atom-languageclient": "github:atom/atom-languageclient#2ecc092",
-    "flow-language-server": "^0.0.3",
-    "xdg-basedir": "^3.0.0"
+    "flow-language-server": "^0.0.3"
   },
   "consumedServices": {
     "status-bar": {
