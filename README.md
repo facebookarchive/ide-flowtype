@@ -3,6 +3,12 @@ Flow-typed JavaScript support for Atom IDE, powered by [the Flow Language Server
 
 Extracted from Nuclide, Flow for Atom IDE brings all of the features you need to be productive with Flow-typed JavaScript into Atom.
 
+## Installation
+Find ide-flow in the Atom package installer by opening Atom's **Settings**, navigating to **Install**, and searching for `ide-flow`. Or maybe you're here inside Atom already.
+
+If you have Atom's command line utilities, installation is also just a matter of:
+`apm install atom-ide-ui && apm install flowtype/ide-flow`
+
 ## What is Atom IDE?
 Atom IDE brings the core features you expect in a full-featured IDE into Atom, such as language-aware autocomplete, diagnostics,  go-to-definition, type hints, symbol outlines, and more.
 
@@ -21,7 +27,7 @@ Otherwise, versions of flow are automatically downloaded, updated, and run trans
 Suggestions directly from the flow server are prioritized in autocomplete. Return types and complex type definitions shown right along suggestions.
 
 ### Diagnostics
-See problems directly in your code the second you hit save. No need to run your code, and no need to flip to your terminal to run `flow`. Flow for Atom IDE underscores problems as you code better than any linter could. Process large sets of diagnostics at once with the bottom pane.
+See problems directly in your code the second you hit save. No need to run your code, and no need to flip to your terminal to run `flow`. Instead, Flow for Atom IDE underscores problems as you code. You can even process large sets of problems at once with the bottom diagnostics pane.
 
 ### Go to Definition
 Want to know how some of your JavaScript works under the hood? Hover over a symbol and hold ⌘ (Mac) or ctrl (Windows and Linux). You'll get a preview of the definition right away, and getting there is only a click away.
@@ -44,4 +50,4 @@ to do this once to work on any of Facebook's open source projects.
 Complete your CLA here: <https://code.facebook.com/cla>
 
 ## License
-ide-flow is BSD licensed. We also provide an additional patent grant.
+flow-language-server is BSD licensed. We also provide an additional patent grant.
