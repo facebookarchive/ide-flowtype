@@ -13,7 +13,7 @@
     "atom": ">=1.17.0"
   },
   "dependencies": {
-    "atom-languageclient": "github:atom/atom-languageclient#2ecc092",
+    "atom-languageclient": "0.1.3",
     "flow-language-server": "^0.1.0"
   },
   "consumedServices": {
