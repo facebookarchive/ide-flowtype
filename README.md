@@ -1,4 +1,4 @@
-# Flow for Atom IDE (ide-flow)
+# Flow for Atom IDE (ide-flowtype)
 [Flow-typed JavaScript](https://flow.org/) support for Atom IDE, powered by [the Flow Language Server](https://github.com/flowtype/flow-language-server).
 
 ![Autocomplete Flow-typed JavaScript](./resources/autocomplete.gif)
@@ -6,12 +6,12 @@
 Extracted from Nuclide, Flow for Atom IDE brings all of the features you need to be productive with Flow-typed JavaScript into Atom.
 
 ## Installation
-**Notice** Currently, you must also have the `atom-ide-ui` package (the core of Atom IDE) installed in order to take advantage of `ide-flow`. We're working with the Atom team to streamline this process.
+**Notice** Currently, you must also have the `atom-ide-ui` package (the core of Atom IDE) installed in order to take advantage of `ide-flowtype`. We're working with the Atom team to streamline this process.
 
-Find `ide-flow` in the Atom package installer by opening Atom's **Settings**, navigating to **Install**, and searching for `ide-flow`. Or maybe you're here inside Atom already.
+Find `ide-flowtype` in the Atom package installer by opening Atom's **Settings**, navigating to **Install**, and searching for `ide-flowtype`. Or maybe you're here inside Atom already.
 
 If you have Atom's command line utilities, installation is also just a matter of:
-`apm install atom-ide-ui && apm install flowtype/ide-flow`
+`apm install atom-ide-ui && apm install ide-flowtype`
 
 ## What is Atom IDE?
 Atom IDE brings the core features you expect in a full-featured IDE into Atom, such as language-aware autocomplete, diagnostics,  go-to-definition, type hints, symbol outlines, and more.
@@ -60,4 +60,4 @@ to do this once to work on any of Facebook's open source projects.
 Complete your CLA here: <https://code.facebook.com/cla>
 
 ## License
-ide-flow is BSD licensed. We also provide an additional patent grant.
+ide-flowtype is BSD licensed. We also provide an additional patent grant.

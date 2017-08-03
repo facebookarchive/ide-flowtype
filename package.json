@@ -1,5 +1,5 @@
 {
-  "name": "ide-flow",
+  "name": "ide-flowtype",
   "main": "./lib/main",
   "license": "BSD-3-Clause",
   "version": "0.10.0",
