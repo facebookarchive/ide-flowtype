@@ -3,7 +3,7 @@
   "main": "./lib/main",
   "license": "BSD-3-Clause",
   "repository": "https://github.com/flowtype/ide-flowtype",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "description": "Flow-typed JavaScript support for Atom IDE",
   "scripts": {
     "ci": "yarn lint",
