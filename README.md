@@ -1,7 +1,7 @@
 # Flow for Atom IDE (ide-flowtype)
 [Flow-typed JavaScript](https://flow.org/) support for Atom IDE, powered by [the Flow Language Server](https://github.com/flowtype/flow-language-server).
 
-![Autocomplete Flow-typed JavaScript](./resources/autocomplete.gif)
+![Autocomplete Flow-typed JavaScript](https://raw.githubusercontent.com/flowtype/ide-flowtype/master/resources/autocomplete.gif)
 
 Extracted from Nuclide, Flow for Atom IDE brings all of the features you need to be productive with Flow-typed JavaScript into Atom.
 
@@ -28,11 +28,11 @@ Flow for Atom understands the version of flow you have on your system, as well `
 Otherwise, versions of flow are automatically downloaded, updated, and run transparently. This means you can create a `.flowconfig` for your project and get to work right away.
 
 ### Autocomplete
-![Autocomplete Flow-typed JavaScript](./resources/autocomplete.gif)
+![Autocomplete Flow-typed JavaScript](https://raw.githubusercontent.com/flowtype/ide-flowtype/master/resources/autocomplete.gif)
 Suggestions directly from the flow server are prioritized in autocomplete. Return types and complex type definitions shown right along suggestions.
 
 ### Diagnostics
-![Real-time Diagnostics show errors as you code](./resources/diagnostics.gif)
+![Real-time Diagnostics show errors as you code](https://raw.githubusercontent.com/flowtype/ide-flowtype/master/resources/diagnostics.gif)
 See problems directly in your code the second you hit save. No need to run your code, and no need to flip to your terminal to run `flow`. Instead, Flow for Atom IDE underscores problems as you code. You can even process large sets of problems at once with the bottom diagnostics pane.
 
 ### Go to Definition
@@ -41,12 +41,12 @@ Want to know how some of your JavaScript works under the hood? Hover over a symb
 ### Type Hints
 Hover over a symbol and get instant feedback for what you're looking at. Flow even shows you types it can infer without any effort on your part.
 
-![Hover for type-hints](./resources/typehint.png)
+![Hover for type-hints](https://raw.githubusercontent.com/flowtype/ide-flowtype/master/resources/typehint.png)
 
 ### Outline
 Get a birds-eye view of your JavaScript with an outline of the document's symbols, and click to jump right where you need to be.
 
-![Outline symbols in code](./resources/outline.png)
+![Outline symbols in code](https://raw.githubusercontent.com/flowtype/ide-flowtype/master/resources/outline.png)
 
 ## Contributing
 
