@@ -17,6 +17,9 @@
     "atom-languageclient": "0.2.0",
     "flow-language-server": "^0.1.5"
   },
+  "activationHooks": [
+    "core:loaded-shell-environment"
+  ],
   "consumedServices": {
     "status-bar": {
       "versions": {
