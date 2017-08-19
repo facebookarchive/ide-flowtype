@@ -11,10 +11,10 @@
     "lint": "eslint lib"
   },
   "engines": {
-    "atom": ">=1.17.0"
+    "atom": ">=1.19.0"
   },
   "dependencies": {
-    "atom-languageclient": "0.2.0",
+    "atom-languageclient": "0.4.0",
     "flow-language-server": "^0.1.5"
   },
   "activationHooks": [
