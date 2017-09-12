@@ -20,6 +20,11 @@
   "activationHooks": [
     "core:loaded-shell-environment"
   ],
+  "enhancedScopes": [
+    "source.js",
+    "source.js.flow",
+    "source.jsx"
+  ],
   "consumedServices": {
     "status-bar": {
       "versions": {
