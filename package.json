@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "atom-languageclient": "0.6.1",
-    "flow-language-server": "^0.2.1"
+    "flow-language-server": "^0.2.2"
   },
   "activationHooks": [
     "core:loaded-shell-environment"
