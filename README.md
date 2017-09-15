@@ -15,6 +15,8 @@ Find `ide-flowtype` in the Atom package installer by opening Atom's **Settings**
 If you have Atom's command line utilities, installation is also just a matter of:
 `apm install atom-ide-ui && apm install ide-flowtype`
 
+**Windows is not currently fully supported. This is being actively worked on.**
+
 ## What is Atom IDE?
 
 Atom IDE brings the core features you expect in a full-featured IDE into Atom, such as language-aware autocomplete, diagnostics,  go-to-definition, type hints, symbol outlines, and more.
