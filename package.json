@@ -3,7 +3,7 @@
   "main": "./lib/main",
   "license": "BSD-3-Clause",
   "repository": "https://github.com/flowtype/ide-flowtype",
-  "version": "0.17.5",
+  "version": "0.17.6",
   "description": "Flow-typed JavaScript support for Atom IDE",
   "scripts": {
     "ci": "yarn lint",
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "atom-languageclient": "0.6.1",
-    "flow-language-server": "^0.2.4"
+    "flow-language-server": "^0.2.5"
   },
   "activationHooks": [
     "core:loaded-shell-environment"
