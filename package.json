@@ -11,7 +11,7 @@
     "lint": "eslint lib"
   },
   "engines": {
-    "atom": ">=1.19.0"
+    "atom": ">=1.21.0"
   },
   "dependencies": {
     "atom-languageclient": "~0.8.2",
