@@ -7,19 +7,24 @@
   "description": "Flow-typed JavaScript support for Atom IDE",
   "scripts": {
     "ci": "yarn lint",
-    "format":
-      "prettier --write {lib,eslint-rules}/**/*.js .eslintrc.js package.json",
+    "format": "prettier --write {lib,eslint-rules}/**/*.js .eslintrc.js package.json",
     "lint": "eslint lib"
   },
   "engines": {
     "atom": ">=1.19.0"
   },
   "dependencies": {
-    "atom-languageclient": "0.6.1",
-    "flow-language-server": "^0.2.5"
+    "atom-languageclient": "~0.8.2",
+    "flow-language-server": "~0.2.5"
   },
-  "activationHooks": ["core:loaded-shell-environment"],
-  "enhancedScopes": ["source.js", "source.js.flow", "source.jsx"],
+  "activationHooks": [
+    "core:loaded-shell-environment"
+  ],
+  "enhancedScopes": [
+    "source.js",
+    "source.js.flow",
+    "source.jsx"
+  ],
   "prettier": {
     "bracketSpacing": false,
     "proseWrap": "always",
