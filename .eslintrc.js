@@ -16,13 +16,13 @@ const rulesDirPlugin = require('eslint-plugin-rulesdir');
 rulesDirPlugin.RULES_DIR = 'eslint-rules';
 
 module.exports = {
-  'extends': 'fbjs-opensource',
-  'plugins': ['rulesdir'],
-  'parserOptions': {
-    'ecmaVersion': 2017,
-    'sourceType': 'script',
+  extends: 'fbjs-opensource',
+  plugins: ['rulesdir'],
+  parserOptions: {
+    ecmaVersion: 2017,
+    sourceType: 'script',
   },
-  'rules': {
+  rules: {
     'rulesdir/license-header': 1,
-  }
-}
+  },
+};
