@@ -7,7 +7,8 @@
   "description": "Flow-typed JavaScript support for Atom IDE",
   "scripts": {
     "ci": "yarn lint",
-    "format": "prettier lib/**/*.js --write --single-quote --no-bracket-spacing --trailing-comma=es5 --jsx-bracket-same-line",
+    "format":
+      "prettier --write {lib,eslint-rules}/**/*.js .eslintrc.js package.json",
     "lint": "eslint lib"
   },
   "engines": {
@@ -17,14 +18,14 @@
     "atom-languageclient": "0.6.1",
     "flow-language-server": "^0.2.5"
   },
-  "activationHooks": [
-    "core:loaded-shell-environment"
-  ],
-  "enhancedScopes": [
-    "source.js",
-    "source.js.flow",
-    "source.jsx"
-  ],
+  "activationHooks": ["core:loaded-shell-environment"],
+  "enhancedScopes": ["source.js", "source.js.flow", "source.jsx"],
+  "prettier": {
+    "bracketSpacing": false,
+    "proseWrap": "always",
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
   "consumedServices": {
     "status-bar": {
       "versions": {
