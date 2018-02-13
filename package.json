@@ -15,9 +15,9 @@
     "atom": ">=1.21.0"
   },
   "dependencies": {
-    "atom-languageclient": "~0.8.2",
-    "flow-language-server": "0.3.0-alpha.86f78e7d",
-    "global": "^4.3.2"
+    "atom-languageclient": "0.8.3",
+    "flow-language-server": "0.3.0",
+    "global": "4.3.2"
   },
   "activationHooks": ["core:loaded-shell-environment"],
   "enhancedScopes": ["source.js", "source.js.flow", "source.jsx"],
