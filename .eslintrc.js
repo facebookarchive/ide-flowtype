@@ -17,7 +17,7 @@ rulesDirPlugin.RULES_DIR = 'eslint-rules';
 
 module.exports = {
   extends: 'fbjs-opensource',
-  plugins: ['rulesdir'],
+  plugins: ['rulesdir', 'prettier'],
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: 'script',
