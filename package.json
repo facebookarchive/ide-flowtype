@@ -3,12 +3,11 @@
   "main": "./lib/main",
   "license": "BSD-3-Clause",
   "repository": "https://github.com/flowtype/ide-flowtype",
-  "version": "0.22.1",
+  "version": "0.23.0",
   "description": "Flow-typed JavaScript support for Atom IDE",
   "scripts": {
     "ci": "yarn lint",
-    "format":
-      "prettier --write {lib,eslint-rules}/**/*.js .eslintrc.js package.json",
+    "format": "prettier --write {lib,eslint-rules}/**/*.js .eslintrc.js package.json",
     "lint": "eslint lib"
   },
   "engines": {
@@ -18,8 +17,14 @@
     "atom-languageclient": "0.9.5",
     "flow-language-server": "0.5.0"
   },
-  "activationHooks": ["core:loaded-shell-environment"],
-  "enhancedScopes": ["source.js", "source.js.flow", "source.jsx"],
+  "activationHooks": [
+    "core:loaded-shell-environment"
+  ],
+  "enhancedScopes": [
+    "source.js",
+    "source.js.flow",
+    "source.jsx"
+  ],
   "prettier": {
     "bracketSpacing": false,
     "proseWrap": "always",
