@@ -1,3 +1,9 @@
+# Project Status:  🚨 Unmaintained 🚨
+
+This project is no longer maintained. We will not be accepting pull requests, addressing issues, nor making future releases.
+
+The Atom IDE project has been retired and archived. Since this project effectively depends on it, we've made the decision to archive it as well.
+
 # Flow for Atom IDE (ide-flowtype)
 
 [Flow-typed JavaScript](https://flow.org/) support for Atom IDE, powered by [the Flow Language Server](https://github.com/flowtype/flow-language-server).
